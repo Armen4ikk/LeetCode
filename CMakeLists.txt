@@ -6,4 +6,5 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 #Easy
 add_executable(SingleNumber ./Easy/SingleNumber.cpp)
-set_target_properties(SingleNumber PROPERTIES FOLDER "Easy")
+add_executable(PalindromeNUmber ./Easy/PalindromeNumber.cpp)
+set_target_properties(SingleNumber PalindromeNUmber PROPERTIES FOLDER "Easy")
